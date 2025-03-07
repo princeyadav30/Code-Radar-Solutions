@@ -1,9 +1,12 @@
 #include <stdio.h>
-int main()
-{
-    int a,b;
-    scanf("%d", &a);
-    scanf("%d", &b);
-    printf("Product: %d/n", a*b);
+
+int main() {
+    float a, b;
+    
+    scanf("%f", &a);  
+    scanf("%f", &b);  
+    
+    printf("Product: %.2f\n", a * b);  
+    
     return 0;
 }
