@@ -1,21 +1,12 @@
-#include <stdio.h>
-
-int main() {
-    int n, i, j;
-
-    // Ask the user for the number of rows
-    printf(" ");
-    scanf("%d", &n);
-
-    // Loop through rows
-    for(i = 1; i <= n; i++) {
-        // Loop through columns to print stars
-        for(j = 1; j <= i; j++) {
-            printf("*");
-        }
-        // Move to the next line after printing each row
-        printf("\n");
+// Your code here...
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++){
+       for(int j=0;j<i;j++){
+        printf("* ");
+    }printf("\n") ;
     }
-
     return 0;
 }
